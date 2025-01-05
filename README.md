@@ -1,4 +1,9 @@
 Hackathon Demo Goal:
+
+![Screenshot 2025-01-05 at 22 57 24](https://github.com/user-attachments/assets/87a68242-bcdb-4bea-8aab-2831c69f8491)
+
+![Screenshot 2025-01-05 at 22 59 17](https://github.com/user-attachments/assets/fef2a177-0a2a-4080-9355-d36e3a12c209)
+
 Create a visually appealing and interactive demo combining voice synthesis, generative AI, and 3D visualizations.
 Proposed Tech Stack:
 Frontend:
