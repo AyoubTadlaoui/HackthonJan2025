@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const VOICE_ID = "pFZP5JQG7iQjIQuC4Bku"; // Aria's voice ID
+const VOICE_ID = "cgSgspJ2msm6clMCkdW9"; // Aria's voice ID
 const API_KEY = "sk_ba8bcaa4e22236af1178c14e0fd9752eb89d45ef6a939c9c";
 
 export const generateSpeech = async (text) => {

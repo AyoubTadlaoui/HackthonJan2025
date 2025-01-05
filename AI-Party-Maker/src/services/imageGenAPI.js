@@ -1,5 +1,5 @@
 const API_KEY = process.env.REACT_APP_HUGGING_FACE_API_KEY;
-const API_URL = 'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-2';
+const API_URL = 'https://api-inference.huggingface.co/models/runwayml/stable-diffusion-v1-5';
 
 async function generateImage(prompt, retries = 10, delay = 5000) {
   try {
