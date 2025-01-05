@@ -7,7 +7,8 @@
 .pnp.js
 # Ignore generated images
 *.png
-
+# Ignore external directories
+../samia-hackathon-jan2025/
 # testing
 /coverage
 
