@@ -5,9 +5,10 @@ const PromptForm = ({ onPromptSubmit }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!prompt.trim()) return;
-    onPromptSubmit(prompt);
-    setPrompt(""); // Clear the input field
+    if (prompt.trim()) {
+      onPromptSubmit(prompt);
+      setPrompt(""); // Clear the input after submission
+    }
   };
 
   return (
@@ -16,9 +17,10 @@ const PromptForm = ({ onPromptSubmit }) => {
         type="text"
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
-        placeholder="Type your text here..."
+        placeholder="Enter your prompt"
+        required
       />
-      <button type="submit">Generate Speech</button>
+      <button type="submit">Generate</button>
     </form>
   );
 };
