@@ -1,8 +1,7 @@
 import axios from 'axios';
 
 const VOICE_ID = "cgSgspJ2msm6clMCkdW9"; // Aria's voice ID
-const API_KEY = "sk_ba8bcaa4e22236af1178c14e0fd9752eb89d45ef6a939c9c";
-
+const API_KEY = process.env.REACT_APP_ELEVEN_LABS_API_KEY;
 export const generateSpeech = async (text) => {
   try {
     const response = await axios.post(

@@ -41,7 +41,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Welcome to SAMIA's Birthday Party!</h1>
+      <h1>Welcome to AI-Party!</h1>
       <PromptForm onPromptSubmit={handlePromptSubmit} />
       {error && <p style={{ color: "red" }}>{error}</p>}
       {loading && <p>Loading... Please wait, the model might take some time to load.</p>}
