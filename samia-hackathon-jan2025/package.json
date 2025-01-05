@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
     "axios": "^1.7.9",
     "cra-template": "1.2.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-scripts": "5.0.1",
+    "nth-check": "^2.1.1",
+    "postcss": "^8.4.49",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "resolve-url-loader": "^5.0.0",
     "three": "^0.172.0"
   },
   "scripts": {
@@ -33,5 +36,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "react-scripts": "^5.0.1"
+  },
+  "overrides": {
+    "svgo": "2.8.0"
   }
 }
