@@ -1,4 +1,4 @@
-Hackathon Demo Goal:
+Hackathon Results:
 
 ![Screenshot 2025-01-05 at 22 57 24](https://github.com/user-attachments/assets/87a68242-bcdb-4bea-8aab-2831c69f8491)
 
